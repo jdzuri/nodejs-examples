@@ -1,0 +1,34 @@
+/******************************************************************************/
+
+Autor: Jose David Jurado Alonso
+e-mail: jdzuri@gmail.com
+
+Project: nodejs-file-upload
+Description: Several simple examples using nodejs.
+
+/******************************************************************************/
+
+Note: 	The html code is insert from server. 
+		It is not proper or correct but separate client/server layers is not subject of these examples.
+
+Any examples required external modules:
+- formidable: To load files. Install: npm install formidable
+
+To start server execute 'node index.js'
+
+Examples:
+
+	1- Insert text into form and submit:
+ 		http://localhost:8001/ or http://localhost:8001/formData
+ 		
+ 	2- Load and download/show file (image): Upload file (save in /tmp) and click in "Download" link. 
+ 		http://localhost:8001/uploadFile
+
+	3- Execute a system command: List system process
+		http://localhost:8001/listProcess
+	
+	4- Execute a system command: Input any system command ( 'ls -l' for example) and press 'Execute command'.
+		http://localhost:8001/formCommand
+		
+	5- 404 Not found error: 
+		http://localhost:8001/asdfasdf
